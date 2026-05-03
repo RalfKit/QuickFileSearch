@@ -6,7 +6,7 @@ QuickFileSearch is a lightweight, portable Windows tool for fast file searching 
 
 It was designed as an alternative to slow native search solutions (e.g. Windows Search) in environments with large file collections, external drives, or network storage.
 
-Instead of scanning the filesystem at runtime, QuickFileSearch uses a prebuilt JSON index for instant search performance.
+Instead of scanning the filesystem at runtime, QuickFileSearch uses a prebuilt JSON index to enable instant search performance.
 
 ## ✨ Features
 
@@ -16,7 +16,7 @@ Instead of scanning the filesystem at runtime, QuickFileSearch uses a prebuilt J
 - Collects file names and full file paths
 - Generates a local `file_index.json`
 - Fully offline process
-- No admin rights required
+- No administrator rights required
 
 ### 🔎 Search Engine
 
@@ -60,7 +60,7 @@ Instead of scanning the filesystem at runtime, QuickFileSearch uses a prebuilt J
 
 QuickFileSearch was created to explore how a pre-indexed search system can outperform traditional filesystem search in large-scale directories.
 
-The core idea is to shift expensive filesystem traversal into a single indexing step, enabling near-instant search experiences afterwards.
+The core idea is to move expensive filesystem traversal into a single indexing step, enabling near-instant search experiences afterwards.
 
 ## 🧱 Architecture
 
@@ -102,7 +102,7 @@ Outputs:
 
 This project is no longer actively developed.
 
-It is a prototype demonstrating indexed file search as an alternative to real-time filesystem scanning.
+It is a finalized prototype demonstrating indexed file search as an alternative to real-time filesystem scanning.
 
 ## 🤝 Notes
 
